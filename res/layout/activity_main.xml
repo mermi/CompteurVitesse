@@ -1,0 +1,84 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageView_ATTENTION"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ToggleButton
+        android:id="@+id/ToggleButton_130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="251dp"
+        android:layout_y="307dp"
+        android:text="130"
+        android:textOff="130"
+        android:textOn="130" />
+    <ToggleButton
+        android:id="@+id/toggleButton_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="307dp"
+        android:text="50"
+        android:textOff="50"
+        android:textOn="50" />
+    <ToggleButton
+        android:id="@+id/ToggleButton_70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="65dp"
+        android:layout_y="307dp"
+        android:text="70"
+        android:textOff="70"
+        android:textOn="70" />
+    <ToggleButton
+        android:id="@+id/ToggleButton_90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="308dp"
+        android:text="90"
+        android:textOff="90"
+        android:textOn="90" />
+    <ToggleButton
+        android:id="@+id/ToggleButton_110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="186dp"
+        android:layout_y="308dp"
+        android:text="110"
+        android:textOff="110"
+        android:textOn="110" />
+    <CheckBox
+        android:id="@+id/checkBox_VITESSE_COMPTEUR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="400dp"
+        android:text="vitesse compteur" />
+    <TextView
+        android:id="@+id/textView_SPEED"
+        android:layout_width="281dp"
+        android:layout_height="91dp"
+        android:layout_x="16dp"
+        android:layout_y="20dp"
+        android:text="SPEED"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/ImageView_ATTENTION"
+        android:layout_width="184dp"
+        android:layout_height="184dp"
+        android:layout_x="61dp"
+        android:layout_y="122dp"
+        android:src="@drawable/waiting"
+        android:visibility="visible" />
+    <CheckBox
+        android:id="@+id/checkBox_SON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="196dp"
+        android:layout_y="399dp"
+        android:text="Son" />
+</AbsoluteLayout>
